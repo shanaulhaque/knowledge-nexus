@@ -1,0 +1,61 @@
+.shaan__heading-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.shaan__heading-container-title {
+    flex: 1;
+    max-width: flex;
+    margin-right: 2rem;
+}
+
+.shaan__heading-container-title h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.shaan__heading-container-date {
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+    margin: 1.5rem;
+}
+
+.shaan__heading-container-date p {
+    font-family: var(--font-family);
+    align-items: left;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 550px) {
+    .shaan__heading-container-title h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .shaan__heading-container-date p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .shaan__heading-container {
+        margin: 1rem 0;
+    }
+
+    .shaan__heading-container-title {
+        flex: 1;
+        max-width: flex;
+        margin-right: 1rem;
+    }
+}
+

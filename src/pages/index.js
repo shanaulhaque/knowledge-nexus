@@ -1,0 +1,1 @@
+export { default as DetailArticle } from './article/DetailArticle';

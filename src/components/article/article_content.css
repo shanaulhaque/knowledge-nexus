@@ -1,0 +1,29 @@
+.shaan__detail_article {
+    display: flex;
+    flex-direction: row;
+    margin: 8rem;
+}
+.shaan__detail_article-article_content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.shaan__detail_article-article_content p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+
+    .shaan__detail_article-article_content p {
+        font-size: 16px;
+    }
+    .shaan__detail_article {
+        margin: 1rem;
+    }
+}
